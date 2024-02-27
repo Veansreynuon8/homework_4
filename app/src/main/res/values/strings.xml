@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApp4</string>
+    <string name="head_txt_personal_details">Personal Detail</string>
+    <string name="txt_firstname">First Name</string>
+    <string name="txt_sure_name">Last Name</string>
+    <string name="txt_state">State</string>
+    <string name="txt_suburb">Suburb</string>
+    <string name="save_and_display_in_detail">Save and Display</string>
+    <string name="txt_information">Information</string>
+    <string name="Btn_get_detail">Get Detail</string>
+    <string name="no_information_provided_yet">No Information Provided Yet</string>
+</resources>

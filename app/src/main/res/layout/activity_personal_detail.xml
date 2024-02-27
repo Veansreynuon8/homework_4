@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PersonalDetail">
+
+    <TextView
+        android:id="@+id/txt_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_dynamic_neutral40"
+        android:padding="5pt"
+        android:text="@string/head_txt_personal_details"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:padding="5pt"
+                android:text="@string/txt_firstname"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextFirstName"
+                android:layout_width="266dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="50px"
+                android:background="@color/white"
+                android:inputType="text"
+                android:paddingStart="30dp"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_sure_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:padding="5pt"
+                android:text="@string/txt_sure_name"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextSureName"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="20px"
+                android:background="@color/white"
+                android:inputType="text"
+                android:paddingStart="30dp"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_input_state"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:padding="5pt"
+                android:text="@string/txt_state"
+                android:textSize="25sp" />
+            <EditText
+                android:id="@+id/editTextState"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="20px"
+                android:background="@color/white"
+                android:inputType="text"
+                android:paddingStart="30dp"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_input_suburb"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:padding="5pt"
+                android:text="@string/txt_suburb"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editTextSuburb"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="20px"
+                android:background="@color/white"
+                android:inputType="text"
+                android:paddingStart="30dp"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_save_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:background="@color/material_dynamic_primary40"
+        android:text="@string/save_and_display_in_detail"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
+<!--            <EditText-->
+<!--                android:id="@+id/editTextSuburb"-->
+<!--                android:layout_width="266dp"-->
+<!--                android:layout_height="51dp"-->
+<!--                android:layout_marginTop="20px"-->
+<!--                android:inputType="textMultiLine"-->
+<!--                android:paddingStart="30dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="27sp"-->
+<!--                android:textStyle="bold" />-->
